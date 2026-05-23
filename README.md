@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/b3d15fbd-3086-4911-b2ff-113a3483d96e" width="180" alt="Lucky_Logo" valign="middle" />
+<img src="https://github.com/user-attachments/assets/b3d15fbd-3086-4911-b2ff-113a3483d96e" width="200" alt="Lucky_Logo" valign="middle" />
 
 <img src="https://github.com/user-attachments/assets/63e3de5e-a7f2-4eb6-b3e2-8bebc9a30c07" width="120" alt="Lucky" valign="middle" />
 
