@@ -60,8 +60,8 @@ Once your Pull Request is merged, you must instruct the global domain system to 
 
 | Record Type | Host / Name | Target / Value / Points To | TTL |
 | :--- | :--- | :--- | :--- |
-| CNAME | @ (or leave empty) | ://onrender.com | Automatic / 1 Hour |
-| CNAME | www | ://onrender.com | Automatic / 1 Hour |
+| CNAME | @ (or leave empty) | luckysrvr.onrender.com | Automatic / 1 Hour |
+| CNAME | www | luckysrvr.onrender.com | Automatic / 1 Hour |
 
 *Crucial Note: Substitute the value target field with the precise, unique public live web app link running on our Render instance.*
 
@@ -91,8 +91,8 @@ sudo apt install python3 git -y
 
 #### 3. Clone the Cluster Repository
 Pull the stable node logic directly into your server architecture:
-git clone https://github.com
-cd Lucky
+git clone https://github.com/LuckySrvr/LuckySrvr
+cd LuckySrvr
 
 #### 4. Configure as a Persistent Background Daemon (Systemd)
 To ensure lucky_core.py doesn't crash when you close your terminal, and automatically restarts if the VPS reboots, create an automated system service manager rule:
