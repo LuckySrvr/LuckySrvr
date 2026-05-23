@@ -1,6 +1,7 @@
 <img width="2160" alt="Untitled_Artwork 2-Photoroom" src="https://github.com/user-attachments/assets/b3d15fbd-3086-4911-b2ff-113a3483d96e" />
 
-# lucky
+# lucky<img width="2160" height="1620" alt="IMG_3060-Photoroom" src="https://github.com/user-attachments/assets/63e3de5e-a7f2-4eb6-b3e2-8bebc9a30c07" />
+
 
 A community-driven, decentralized high-availability backup proxy network. By routing production traffic through the Lucky cluster, developers can safeguard their applications against server failures and unexpected dropouts.
 
