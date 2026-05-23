@@ -1,0 +1,12 @@
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local node runtime data files
+routing.json
+*.log
+
+# OS-specific system artifacts
+.DS_Store
+Thumbs.db
