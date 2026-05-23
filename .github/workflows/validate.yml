@@ -1,0 +1,37 @@
+name: Lucky Node Validator Bot
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'nodes/**.json'
+
+jobs:
+  validate-json:
+    name: Check Node Configuration Format
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Contributed Code
+        uses: actions/checkout@v4
+
+      - name: Verify JSON Layout Syntax
+        run: |
+          echo "🤖 Bot parsing submitted node structure..."
+          # Loop through every JSON file in the nodes directory
+          for file in nodes/*.json; do
+            # Skip the blueprint template file
+            if [ "$file" = "nodes/templates.json" ]; then
+              continue
+            fi
+            
+            echo "Inspecting format validity on: $file"
+            # Attempt to parse using Python's built-in tool
+            python3 -m json.tool "$file" > /dev/null
+            
+            if [ $? -ne 0 ]; then
+              echo "❌ ERROR: $file contains malformed JSON syntax. Please verify commas and quotes."
+              exit 1
+            fi
+          done
+          echo "✅ SUCCESS: All configuration rules are syntactically sound."
