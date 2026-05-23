@@ -1,6 +1,6 @@
 <img src="https://github.com/user-attachments/assets/b3d15fbd-3086-4911-b2ff-113a3483d96e" width="250" alt="Lucky_Logo" valign="left" />
 
-<img src="https://github.com/user-attachments/assets/63e3de5e-a7f2-4eb6-b3e2-8bebc9a30c07" width="120" alt="Lucky" valign="middle" />
+<img src="https://github.com/user-attachments/assets/63e3de5e-a7f2-4eb6-b3e2-8bebc9a30c07" width="180" alt="Lucky" valign="middle" />
 
 
 A community-driven, decentralized high-availability backup proxy network. By routing production traffic through the Lucky cluster, developers can safeguard their applications against server failures and unexpected dropouts.
