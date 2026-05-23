@@ -1,4 +1,4 @@
-<img width="2160" height="1620" alt="Untitled_Artwork 2" src="https://github.com/user-attachments/assets/d16eca63-38ef-4718-ba2e-ffce959f483b" />
+<img width="2160" height="1620" alt="Untitled_Artwork 2-Photoroom" src="https://github.com/user-attachments/assets/b3d15fbd-3086-4911-b2ff-113a3483d96e" />
 
 # lucky
 
